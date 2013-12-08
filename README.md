@@ -6,4 +6,4 @@ Work plan
 
 1. Standard Scala library:
 
-scala.collection.immutable.StringOpt
+  -scala.collection.immutable.StringOpt
