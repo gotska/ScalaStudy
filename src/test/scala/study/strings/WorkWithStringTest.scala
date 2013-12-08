@@ -15,4 +15,16 @@ class WorkWithStringTest extends FlatSpec with Matchers {
     "curConcat()" should "return 'scaladeveloper'" in {
        WorkWithString.concat("scala", "developer")  should be("scaladeveloper")
     }
+    
+    "compareByLengths()" should "return 'true'" in {
+       WorkWithString.thisLessThat("a", "b")  should be(true)
+    }
+    
+    "cap()" should "return 'Scala developer'" in {
+       WorkWithString.cap  should be("Scala developer")
+    }
+    
+    "getChar(6)" should "return 'd'" in {
+       WorkWithString.getChar(6) should be('d')
+    }
 }
