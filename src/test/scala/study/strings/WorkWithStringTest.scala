@@ -1,6 +1,5 @@
-package study.string
+package study.strings
 
-import collection.mutable.Stack
 import org.scalatest._
 
 class WorkWithStringTest extends FlatSpec with Matchers {
@@ -11,5 +10,9 @@ class WorkWithStringTest extends FlatSpec with Matchers {
   
     "curConcat(2)" should "return 'scala developerscala developer'" in {
        WorkWithString.curConcat(2)  should be("scala developerscala developer")
+    }
+    
+    "curConcat()" should "return 'scaladeveloper'" in {
+       WorkWithString.concat("scala", "developer")  should be("scaladeveloper")
     }
 }

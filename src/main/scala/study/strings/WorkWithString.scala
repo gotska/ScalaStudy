@@ -1,4 +1,4 @@
-package study.string
+package study.strings
 
 import scala.collection.immutable.StringOps._ 
 
@@ -11,4 +11,9 @@ object WorkWithString {
 
   //*  --concatenate current string n times
   def curConcat(i: Int) = str.*(2)
+  
+  //++  --concatenate two strings
+  def concat(s1: String, s2: String) = s1 ++ s2
+  
+  
 }
